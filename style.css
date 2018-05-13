@@ -130,7 +130,14 @@ header .header-cases {
 	display: none;
 }
 
-
+@meda only screen and (min-width: 1000px) {
+		header .header-brands {
+		margin: 0;
+		text-align: left;
+		padding: 20px 20px 20px 0px;
+		border-right: 3px solid #111;
+	}
+}
 
 
 /*index*/
@@ -166,9 +173,9 @@ header .header-cases {
 	font-size: 28px;
 	font-style: italic;
 	line-height: 40px;
-	color: #fff;
+	color: black;
 	text-align: center;
-	font-weight: 100;
+	font-weight: 500;
 	text-shadow: 2px 2px 8px #111;
 }
 
